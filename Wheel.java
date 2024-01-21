@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class Wheel 
 {
@@ -7,7 +8,7 @@ public class Wheel
 	
 	public void spin()
 	{
-		rando = new Random();
+		rando = new Random();    //Random Number
 		wheelSpot = rando.nextInt(9)+1;
 		wheelValue = wheelValue(wheelSpot);
 		System.out.println("You landed on $" + wheelValue );
@@ -28,3 +29,4 @@ public class Wheel
 	}
 	
 }
+
