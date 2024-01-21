@@ -1,6 +1,6 @@
 import java.util.*;
 public class GameBoard {
-	
+
 	private StringBuilder availableLetters;
 	private final String PUZZLE;
 	private StringBuilder pendingPuzzle;
@@ -18,7 +18,6 @@ public class GameBoard {
 	 */
 	public GameBoard (String letters, String puzzle, String category)
 	{
-		
 		availableLetters = new StringBuilder(letters.toUpperCase());
 		PUZZLE = puzzle;
 		this.category = category;
